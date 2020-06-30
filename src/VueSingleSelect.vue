@@ -564,6 +564,14 @@ this.selectedOption = this.matchingOptions[this.pointer];
 .cursor-pointer {
   cursor: pointer;
 }
+.arrow-icon {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    color: #888;
+    font-size: 20px;
+}
 .dropdown {
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12),
     0 2px 4px 0 rgba(0, 0, 0, 0.08);
