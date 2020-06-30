@@ -25,10 +25,10 @@
           :class="[classes.icons]"
           class="cursor-pointer absolute flex items-center"
         >
-          <span v-if="!dropdownOpen" aria-hidden="true">
+          <span class="arrow-icon" v-if="!dropdownOpen" aria-hidden="true">
               &#9660;
           </span>
-          <span v-else aria-hidden="true">
+          <span v-else class="arrow-icon" aria-hidden="true">
               &#x25B2;
           </span>
         </div>
